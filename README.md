@@ -27,6 +27,7 @@ wrk -t12 -c400 -d60s http://$PI/
 
 # Maven build
 cd hello-vertx-pi/vertx
+
 mvn clean package
 
 # Docker build
