@@ -1,7 +1,7 @@
 # hello-vertx-pi
 Testing Vertx performance on Raspbian
 
-Build and run steps below, optionally build and run the CPU monitor, [SEE VERTX experiments README](vert-x3-experiments-rpi-cpuload/README.md)
+Build and run steps below, optionally build and run the CPU monitor, [See Vertx experiments README](vert-x3-experiments-rpi-cpuload/README.md)
 
 To benchmark I used wrk, creating 12 threads with 400 connections over 60 seconds, warming up with several runs.
 As with all benchmarks your mileage might/will vary so run your own tests.
