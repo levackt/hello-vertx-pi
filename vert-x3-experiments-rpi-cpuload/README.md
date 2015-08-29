@@ -6,7 +6,8 @@ Build
 mvn clean package
 
 Run
-java -jar rpi-1.0-fat.jar
+java -jar target/rpi-1.0-fat.jar
 
-Open index in browser, (Export $PI or substitute it with your device's IP address)
-http://$PI:8080/
+Open monitor in browser, (export $PI or substitute it with your device's IP address)
+
+[http://$PI:8080/](http://$PI:8080/)
