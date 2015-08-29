@@ -29,12 +29,12 @@ docker-compose up -d
 
 My average results:
 
-+- 1800 requests/second
++- 2000 requests/second
 
 # Vert.x single Docker container
 To run:
 
-docker run -t -i -p 80:80 hello/vertx-java-fat
+docker run -it -p 80:80 hello/vertx-java-fat
 
 My average results:
 
