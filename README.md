@@ -21,8 +21,10 @@ and ran the tests with my laptop over wifi.
 > Total Memory: 925.1 MiB
 
 
-The wrk command: (export $PI or substitute it with your device's IP address)
-wrk -t12 -c400 -d60s http://$PI/
+The wrk command: (export MY_PI or substitute it with your device's IP address)
+
+
+wrk -t12 -c400 -d60s http://$MY_PI/
 
 
 # Maven build
